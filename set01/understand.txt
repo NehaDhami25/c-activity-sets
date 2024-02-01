@@ -1,0 +1,8 @@
+call by reference-
+
+calling function- actual parameters 
+called function- formal parameters 
+
+syntax int a;(normal variable)
+       int b; (address variable / prints variable)
+       int b (address of operator /change contexts of address variable ) 
