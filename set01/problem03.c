@@ -19,9 +19,9 @@ int add(int a, int b)
     return sum;
 }
 
-int output(int a, int b, int c)
+int output(int a, int b, int sum)
 {
-    printf("the sum is %d \n", &add);
+    printf("the sum is %d \n",sum);
 }
 
 int main()

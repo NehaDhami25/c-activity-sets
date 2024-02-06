@@ -1,0 +1,25 @@
+ gdb problem12.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\91636\PSC\c-activity-sets\set01\problem12.exe...done.
+(gdb) r
+Starting program: C:\Users\91636\PSC\c-activity-sets\set01/problem12.exe
+[New Thread 22920.0x6c6c]
+[New Thread 22920.0x187c]
+Enter the number of arrays: 2
+Enter complex number 1:
+Enter real part: 1
+Enter imaginary part: 2
+Enter complex number 2:
+Enter real part: 1
+Enter imaginary part: 2
+1+2i +  1 + 2i is 2 + 4i
+[Inferior 1 (process 22920) exited normally]
+(gdb) q

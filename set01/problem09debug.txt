@@ -1,0 +1,26 @@
+PS C:\Users\91636\PSC\c-activity-sets\set01> gdb problem09.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\91636\PSC\c-activity-sets\set01\problem09.exe...done.
+(gdb) r
+Starting program: C:\Users\91636\PSC\c-activity-sets\set01/problem09.exe
+[New Thread 20956.0x1d90]
+[New Thread 20956.0x3b94]
+Enter a number: 
+2
+Square root of 2.000000 is 1.414214[Inferior 1 (process 20956) exited normally]
+(gdb) r
+Starting program: C:\Users\91636\PSC\c-activity-sets\set01/problem09.exe
+[New Thread 32100.0x4118]
+[New Thread 32100.0x4960]
+Enter a number: 
+49
+Square root of 49.000000 is 7.000000[Inferior 1 (process 32100) exited normally]
+(gdb) q

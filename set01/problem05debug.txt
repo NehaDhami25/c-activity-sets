@@ -1,0 +1,57 @@
+(gdb) b 22
+Breakpoint 1 at 0x4014a6: file C:\Users\91636\PSC\c-activity-sets\set01\problem05.c, line 22.
+(gdb) b 20
+Breakpoint 2 at 0x401496: file C:\Users\91636\PSC\c-activity-sets\set01\problem05.c, line 20.
+(gdb) b 26
+Breakpoint 3 at 0x4014ae: file C:\Users\91636\PSC\c-activity-sets\set01\problem05.c, line 26.
+(gdb) b 41
+Breakpoint 4 at 0x4014fe: file C:\Users\91636\PSC\c-activity-sets\set01\problem05.c, line 41.
+(gdb) b 42
+Breakpoint 5 at 0x40151e: file C:\Users\91636\PSC\c-activity-sets\set01\problem05.c, line 42.
+(gdb) r
+Starting program: C:\Users\91636\PSC\c-activity-sets\set01/.\problem05.exe
+[New Thread 11640.0x2140]
+[New Thread 11640.0x6370]
+enter the number: 
+3
+enter the number:
+4
+enter the number:
+5
+
+Breakpoint 4, main () at C:\Users\91636\PSC\c-activity-sets\set01\problem05.c:41
+41          int largest=compare(a,b,c);
+(gdb) n
+
+Breakpoint 2, compare (a=3, b=4, c=5) at C:\Users\91636\PSC\c-activity-sets\set01\problem05.c:20
+20          if(b>a&&b>c)
+(gdb) n
+
+Breakpoint 3, compare (a=3, b=4, c=5) at C:\Users\91636\PSC\c-activity-sets\set01\problem05.c:26
+26              largest = c;
+(gdb) n
+28          return largest;
+(gdb) p c
+$1 = 5
+(gdb) p a
+$2 = 3
+(gdb) p b
+$3 = 4
+(gdb) n
+29      
+(gdb) n
+
+Breakpoint 5, main () at C:\Users\91636\PSC\c-activity-sets\set01\problem05.c:42
+42          output(a,b,c,largest);
+(gdb) p largest
+$4 = 5
+(gdb) n
+The largest is 5
+43          return 0;
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 11640] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
