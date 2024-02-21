@@ -19,11 +19,15 @@ float input()
     scanf("%f",&n);
     return n;
 }
-float square_root(float n){
-    float x=n/2;
-    float epsilon=0.000001;
 
-    while ((x*x-n)>epsilon || (n-x*x)>epsilon)
+// if the guess is close to the square root which means the number and the square of guess 
+// have a difference less than epsilon. all negative numbers are always less than epsilon .
+
+float square_root(float n){
+    float x=n/100;
+    float epsilon=0.000001;
+       
+    while (fabs(x*x-n)>epsilon)
     {
       x=0.5*(x+n/x);
     }

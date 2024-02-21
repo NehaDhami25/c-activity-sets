@@ -23,9 +23,20 @@ int stringcompare(char *string1, char *string2)
 {
      for (int i = 0; string1[i] != '\0' || string2[i] != '\0'; i++) 
      {
-        if (string1[i] == '\0' || string2[i] == '\0' || string1[i] != string2[i]) 
+        if (string1[i] != string2[i]) 
         {
-            return string1[i] - string2[i];
+            if(string1[i]<string2[i])
+            {
+                return 1;
+            }
+            else if(string1[i]=string2[i])
+            {
+                return 0;
+            }
+            else if(string1[i]>string2[i])
+            {
+                return -1;
+            }
         }
     }
     return 0;
