@@ -1,5 +1,4 @@
 //4. Write a program to find nth number in fibonacci sequence.
-
 //> Fibonacci Sequence is of the form: `0, 1, 1, 2, 3, 5, 8, 13, ...
 
 #include <stdio.h>
@@ -23,7 +22,6 @@ int find_fibo(int n){
     int fib[100]={1,1};
     for(int i=1;i<n-1;i++){
         fib[i+1]=fib[i]+fib[i-1];
-        // printf("fib: %d\n",fib[i+1]);
     }
     return fib[n-1];
 }
