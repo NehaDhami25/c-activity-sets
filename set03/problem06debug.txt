@@ -1,4 +1,4 @@
-PS C:\Users\91636\PSC\c-activity-sets\set03> gdb problem05.exe
+PS C:\Users\91636\PSC\c-activity-sets\set03> gdb problem06.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -8,11 +8,12 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from C:\Users\91636\PSC\c-activity-sets\set03\problem05.exe...done.
+Reading symbols from C:\Users\91636\PSC\c-activity-sets\set03\problem06.exe...done.
 (gdb) r
-Starting program: C:\Users\91636\PSC\c-activity-sets\set03/problem05.exe
-[New Thread 16468.0x6024]
-[New Thread 16468.0x808]
-Enter n: 60
-2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59[Inferior 1 (process 16468) exited normally]     
+Starting program: C:\Users\91636\PSC\c-activity-sets\set03/problem06.exe
+[New Thread 14004.0x52b8]
+[New Thread 14004.0x3730]
+string: hello
+substring: world
+substring doesn't match![Inferior 1 (process 14004) exited normally]
 (gdb) q
