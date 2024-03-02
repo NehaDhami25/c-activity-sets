@@ -1,0 +1,27 @@
+PS C:\Users\91636\PSC\c-activity-sets\set03> gdb problem07.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\91636\PSC\c-activity-sets\set03\problem07.exe...done.
+(gdb) r
+Starting program: C:\Users\91636\PSC\c-activity-sets\set03/problem07.exe
+[New Thread 12844.0x6504]
+[New Thread 12844.0x3b90]
+P1
+co-ord x:
+1
+co-ord y:
+1
+P2
+co-ord x:
+6
+co-ord y:
+6
+7.071068[Inferior 1 (process 12844) exited normally]
+(gdb) q
